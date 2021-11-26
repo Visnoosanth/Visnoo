@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mayuranlaundry">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Common.CartActivity"></activity>
+        <activity android:name=".Common.ProductDetails" />
+        <activity android:name=".Admin.AdminOrder" />
+        <activity android:name=".Admin.AdminUsers" />
+        <activity android:name=".Admin.AdminAddNewProduct" />
+        <activity android:name=".Admin.AdminCategory" />
+        <activity android:name=".Common.PackageThree" />
+        <activity android:name=".Common.PackageTwo" />
+        <activity android:name=".LoginSignUp.ChangePassword" />
+        <activity android:name=".Common.PackageOne" />
+        <activity
+            android:name=".Admin.AdminHome"
+            android:label="@string/title_activity_admin_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Common.DressCategory" />
+        <activity android:name=".Common.Profile" />
+        <activity android:name=".LoginSignUp.MakeSelection" />
+        <activity android:name=".LoginSignUp.ForgetPassword" />
+        <activity android:name=".LoginSignUp.SignUp" />
+        <activity android:name=".LoginSignUp.Login" />
+        <activity android:name=".LoginSignUp.RetailerStartupscreen" />
+        <activity android:name=".Common.AddLocation" />
+        <activity android:name=".Common.UserDashBoardAfterLogin" />
+        <activity android:name=".Common.UserDashboard" />
+        <activity android:name=".Common.OnBoarding" />
+        <activity android:name=".Common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

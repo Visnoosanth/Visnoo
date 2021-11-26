@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "109644021008",
+    "firebase_url": "https://mayuranlaundry.firebaseio.com",
+    "project_id": "mayuranlaundry",
+    "storage_bucket": "mayuranlaundry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109644021008:android:bc752240ecf2a882617995",
+        "android_client_info": {
+          "package_name": "com.example.mayuranlaundry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109644021008-t11jhpr4k1v2d5h5618j7j4i58aegopm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mayuranlaundry",
+            "certificate_hash": "12df5d7ccd36eb0c8cc60df6aaafeef114705089"
+          }
+        },
+        {
+          "client_id": "109644021008-qpdme7p6m6tu681dj73blsve0ofho9l0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK8gGOcVBwobsA6ZJAc7GUfCnZSlcruZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109644021008-qpdme7p6m6tu681dj73blsve0ofho9l0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
